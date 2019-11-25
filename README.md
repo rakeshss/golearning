@@ -1,4 +1,4 @@
-# golearning
+# Basics of Go Programming language
 Basics of go
 
 
