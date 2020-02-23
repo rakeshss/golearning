@@ -15,6 +15,6 @@ func main() {
 	} else {
 		data, _ := ioutil.ReadAll(response.Body)
 		fmt.Println(string(data))
-	}
+	} 
 }
 
