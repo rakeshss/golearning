@@ -1,17 +1,11 @@
 package main
 
-import("fmt")
-
 func main(){
-
 	cards := deck {"one","two"}
 	cards = append(cards,newCard())
-	fmt.Println(cards)
 
-	// loop the slice
-	for i,card := range cards {
-		fmt.Println(i, card)
-	}
+	// print logic moved to deck.go
+	cards.print()
 }
 
 func newCard() string{
