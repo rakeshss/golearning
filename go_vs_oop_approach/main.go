@@ -17,3 +17,5 @@ func main(){
 func newCard() string{
 	return "Five of Diamonds"
 }
+
+// to run this program: go run main.go deck.go 
