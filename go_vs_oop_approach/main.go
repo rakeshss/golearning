@@ -6,6 +6,10 @@ func main(){
 
 	// print logic moved to deck.go
 	cards.print()
+
+	// better way than above
+	cards_instance := newDeck()
+	cards_instance.print()
 }
 
 func newCard() string{
